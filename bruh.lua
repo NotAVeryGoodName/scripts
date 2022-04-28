@@ -200,4 +200,3 @@ KAT:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
   	end    
 })
-OrionLib:Destroy()
