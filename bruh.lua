@@ -58,7 +58,7 @@ FF:AddButton({
   	end    
 })
 FF:AddButton({
-	Name = "Orbit around people like a retard",
+	Name = "Retard orbit",
 	Callback = function()
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/orbit.lua", true))()
   	end    
