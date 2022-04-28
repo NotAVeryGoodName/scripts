@@ -123,12 +123,6 @@ WOW:AddButton({
   	end    
 })
 WOW:AddButton({
-	Name = "Vape + bedwars virgin2",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-  	end    
-})
-WOW:AddButton({
 	Name = "Shitty save game1",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/SaveSite.lua", true))()
@@ -144,12 +138,6 @@ KAT:AddButton({
 	Name = "Aimbot",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Cornyllius/ROBLOX/main/AIMBOT%20HUB.lua", true))()
-  	end    
-})
-KAT:AddButton({
-	Name = "Floppaware aimbot",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/soupg/FW/main/FloppaWare.lua%22))()
   	end    
 })
 KAT:AddButton({
