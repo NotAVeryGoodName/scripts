@@ -33,6 +33,12 @@ Tab:AddColorpicker({
 		print(value)
 	end	  
 })
+Tab:AddButton({
+	Name = "print tester",
+	Callback = function()
+      		print("printed bruh")
+  	end    
+})
 FF:AddButton({
 	Name = "Dark dex",
 	Callback = function()
