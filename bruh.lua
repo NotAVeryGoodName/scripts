@@ -58,6 +58,12 @@ FF:AddButton({
   	end    
 })
 FF:AddButton({
+	Name = "Orbit around people like a retard",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/orbit.lua", true))()
+  	end    
+})
+FF:AddButton({
 	Name = "Shitty animation hub",
 	Callback = function()
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/roware.lua", true))()
