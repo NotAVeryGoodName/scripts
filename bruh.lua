@@ -78,7 +78,7 @@ FF:AddButton({
 FF:AddButton({
 	Name = "Crasher Dont use might get roblox ban",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/troll.lua", true))()
+        print("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/troll.lua")
   	end    
 })
 WOW:AddButton({
