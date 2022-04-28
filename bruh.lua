@@ -147,6 +147,12 @@ KAT:AddButton({
   	end    
 })
 KAT:AddButton({
+	Name = "Floppaware aimbot",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/soupg/FW/main/FloppaWare.lua%22))()
+  	end    
+})
+KAT:AddButton({
 	Name = "Sex GUI",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/sexx.lua", true))()
