@@ -194,3 +194,9 @@ KAT:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/floppa.lua", true))()
   	end    
 })
+KAT:AddButton({
+	Name = "DomainX Hub",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+  	end    
+})
