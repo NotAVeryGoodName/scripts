@@ -4,7 +4,7 @@ OrionLib:MakeNotification({
 	Name = "Welcome",
 	Content = "Kys kid",
 	Image = "rbxassetid://4335480917",
-	Time = 30
+	Time = 15
 })
 local Tab = Window:MakeTab({
 	Name = "Cotton picker",
