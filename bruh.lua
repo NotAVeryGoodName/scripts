@@ -76,9 +76,9 @@ FF:AddButton({
   	end    
 })
 FF:AddButton({
-	Name = "Crasher Dont use might get roblox ban",
+	Name = "Crasher check f9 dont use",
 	Callback = function()
-        print("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/troll.lua")
+      		print("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/troll.lua")
   	end    
 })
 WOW:AddButton({
