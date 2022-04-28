@@ -63,6 +63,18 @@ FF:AddButton({
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/roware.lua", true))()
   	end    
 })
+FF:AddButton({
+	Name = "OwlHub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+  	end    
+})
+FF:AddButton({
+	Name = "Darkhub (has key sys)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+  	end    
+})
 WOW:AddButton({
 	Name = "Become black",
 	Callback = function()
