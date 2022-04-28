@@ -164,3 +164,15 @@ KAT:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/btools.lua"))()
   	end    
 })
+KAT:AddButton({
+	Name = "KAT",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+  	end    
+})
+KAT:AddButton({
+	Name = "AntiAFK",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/batusz/main/roblox/__Anti__Afk__Script__", true))()
+  	end    
+})
