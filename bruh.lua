@@ -26,6 +26,11 @@ local KAT = Window:MakeTab({
 	Icon = "rbxassetid://4335480917",
 	PremiumOnly = false
 })
+local CCC = Window:MakeTab({
+	Name = "Cumdump",
+	Icon = "rbxassetid://4335480917",
+	PremiumOnly = false
+})
 Tab:AddColorpicker({
 	Name = "I hate this Check f9",
 	Default = Color3.fromRGB(255, 0, 0),
@@ -198,5 +203,35 @@ KAT:AddButton({
 	Name = "DomainX Hub",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+  	end    
+})
+CCC:AddButton({
+	Name = "SONIK GO FAST",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/speed.lua',true))()
+  	end    
+})
+CCC:AddButton({
+	Name = "Press e lol",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/Noclip.lua',true))()
+  	end    
+})
+CCC:AddButton({
+	Name = "Kebab hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://www.kebabterminal.tk/main.lua"))()
+  	end    
+})
+CCC:AddButton({
+	Name = "Invis fling",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/InvFling.lua',true))()
+  	end    
+})
+CCC:AddButton({
+	Name = "aim+esp+cope",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua',true))()
   	end    
 })
