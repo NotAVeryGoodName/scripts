@@ -78,7 +78,7 @@ FF:AddButton({
 FF:AddButton({
 	Name = "Crasher check f9 dont use",
 	Callback = function()
-      		print("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/troll.lua")
+      		print("pastebin: gNv8DDYF")
   	end    
 })
 WOW:AddButton({
