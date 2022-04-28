@@ -42,7 +42,7 @@ FF:AddButton({
 FF:AddButton({
 	Name = "Inf yield",
 	Callback = function()
-        loadstring(game:HttpGetAsync("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()", true))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
 FF:AddButton({
