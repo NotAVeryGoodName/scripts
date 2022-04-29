@@ -51,6 +51,12 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
+	Name = "assisted suicide",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://github.com/NotAVeryGoodName/scripts/raw/main/reset.lua", true))()
+  	end    
+})
+Tab:AddButton({
 	Name = "Discord server",
 	Callback = function()
         OrionLib:MakeNotification({
