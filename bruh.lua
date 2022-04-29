@@ -234,6 +234,12 @@ KAT:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
   	end    
 })
+KAT:AddButton({
+	Name = "Criminality/elitehub",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DOXSASHW/poop-123/main/ok'))()
+  	end    
+})
 CCC:AddButton({
 	Name = "SONIK GO FAST",
 	Callback = function()
