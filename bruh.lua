@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 })
 local Tab = Window:MakeTab({
 	Name = "Cotton picker",
-	Icon = "rbxassetid://4431163577",
+	Icon = "rbxassetid://4384402433",
 	PremiumOnly = false
 })
 local FF = Window:MakeTab({
@@ -263,5 +263,11 @@ CCC:AddButton({
 	Name = "Null Scripts",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/null.lua',true))()
+  	end    
+})
+CCC:AddButton({
+	Name = "Teleport tween nigg",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/tel.lua',true))()
   	end    
 })
