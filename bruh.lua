@@ -230,8 +230,8 @@ CCC:AddButton({
   	end    
 })
 CCC:AddButton({
-	Name = "aim+esp+cope",
+	Name = "cope",
 	Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua',true))()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/ROBLOX_AutoClicker"))()
   	end    
 })
