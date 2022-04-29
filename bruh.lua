@@ -232,6 +232,6 @@ CCC:AddButton({
 CCC:AddButton({
 	Name = "cope",
 	Callback = function()
-        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/ROBLOX_AutoClicker"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/ac.lua',true))()
   	end    
 })
