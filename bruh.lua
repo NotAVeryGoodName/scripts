@@ -247,3 +247,15 @@ CCC:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/gravittee.lua',true))()
   	end    
 })
+CCC:AddButton({
+	Name = "netless bypass",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
+  	end    
+})
+CCC:AddButton({
+	Name = "Neko neko nigga",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/neko.lua',true))()
+  	end    
+})
