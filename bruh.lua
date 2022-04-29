@@ -300,3 +300,9 @@ CCC:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
   	end    
 })
+CCC:AddButton({
+	Name = "Spooky dooky underware :0",
+	Callback = function()
+        loadstring(game:HttpGet("https://github.com/NotAVeryGoodName/scripts/raw/main/spooky.lua"))()
+  	end    
+})
