@@ -259,3 +259,9 @@ CCC:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/neko.lua',true))()
   	end    
 })
+CCC:AddButton({
+	Name = "Null Scripts",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/null.lua',true))()
+  	end    
+})
