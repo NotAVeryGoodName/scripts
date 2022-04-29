@@ -31,6 +31,11 @@ local CCC = Window:MakeTab({
 	Icon = "rbxassetid://4335480917",
 	PremiumOnly = false
 })
+local MIA = Window:MakeTab({
+	Name = "Mia khalifa",
+	Icon = "rbxassetid://4335480917",
+	PremiumOnly = false
+})
 Tab:AddColorpicker({
 	Name = "I hate this Check f9",
 	Default = Color3.fromRGB(255, 0, 0),
@@ -316,5 +321,11 @@ CCC:AddButton({
 	Name = "Spooky dooky underware :0",
 	Callback = function()
         loadstring(game:HttpGet("https://github.com/NotAVeryGoodName/scripts/raw/main/spooky.lua"))()
+  	end    
+})
+MIA:AddButton({
+	Name = "fuck",
+	Callback = function()
+        warn("fuck")
   	end    
 })
