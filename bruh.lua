@@ -45,6 +45,12 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
+	Name = "Q to kys",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://github.com/NotAVeryGoodName/scripts/raw/main/freset.lua", true))()
+  	end    
+})
+Tab:AddButton({
 	Name = "Discord server",
 	Callback = function()
         OrionLib:MakeNotification({
@@ -280,5 +286,11 @@ CCC:AddButton({
 	Name = "Teleport tween nigg",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/tel.lua',true))()
+  	end    
+})
+CCC:AddButton({
+	Name = "Pendulum Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
   	end    
 })
