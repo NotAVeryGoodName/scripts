@@ -232,6 +232,18 @@ CCC:AddButton({
 CCC:AddButton({
 	Name = "cope",
 	Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/ac.lua',true))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/gun.lua',true))()
+  	end    
+})
+CCC:AddButton({
+	Name = "shotty",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/shot.lua',true))()
+  	end    
+})
+CCC:AddButton({
+	Name = "gravittee",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/gravittee.lua',true))()
   	end    
 })
