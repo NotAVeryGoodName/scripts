@@ -44,6 +44,17 @@ Tab:AddButton({
       		print("printed bruh")
   	end    
 })
+Tab:AddButton({
+	Name = "Discord server",
+	Callback = function()
+        OrionLib:MakeNotification({
+            Name = "Cotton picker verified server",
+            Content = "https://discord.gg/mBWZ5dzVWc",
+            Image = "rbxassetid://4384402433",
+            Time = 30
+        })		
+  	end    
+})
 FF:AddButton({
 	Name = "Dark dex",
 	Callback = function()
