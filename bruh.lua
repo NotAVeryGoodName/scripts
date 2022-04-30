@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 })
 local Tab = Window:MakeTab({
 	Name = "Cotton picker",
-	Icon = "rbxassetid://4384402433",
+	Icon = "rbxassetid://6031302918",
 	PremiumOnly = false
 })
 local FF = Window:MakeTab({
@@ -33,7 +33,7 @@ local CCC = Window:MakeTab({
 })
 local MIA = Window:MakeTab({
 	Name = "Mia khalifa",
-	Icon = "rbxassetid://4335480917",
+	Icon = "rbxassetid://6035107952",
 	PremiumOnly = false
 })
 Tab:AddColorpicker({
@@ -183,6 +183,12 @@ WOW:AddButton({
 	Name = "Shitty save game2",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/saveinstance.lua", true))()
+  	end    
+})
+WOW:AddButton({
+	Name = "DH Destiny",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/compwnter/destiny/main/loader"))()
   	end    
 })
 KAT:AddButton({
