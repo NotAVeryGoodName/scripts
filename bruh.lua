@@ -364,3 +364,9 @@ MIA:AddButton({
         })		
   	end    
 })
+MIA:AddButton({
+	Name = "Remotespy",
+	Callback = function()
+        loadstring(game:HttpGet("https://github.com/NotAVeryGoodName/scripts/raw/main/RemoteS.lua"))()
+  	end    
+})
