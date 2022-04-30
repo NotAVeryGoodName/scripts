@@ -358,7 +358,7 @@ MIA:AddButton({
 	Callback = function()
         OrionLib:MakeNotification({
             Name = "Cotton picker verified server",
-            Content = "https://discord.gg/mBWZ5dzVWc",
+            Content = "https://discord.gg/GUfYVXjfh2",
             Image = "rbxassetid://4384402433",
             Time = 30
         })		
