@@ -348,24 +348,20 @@ MIA:AddButton({
   	end    
 })
 MIA:AddButton({
-	Name = "SS1",
+	Name = "FE Finger",
 	Callback = function()
-        OrionLib:MakeNotification({
-            Name = "Kille em",
-            Content = " require(0x22EEC35B5)["load"]("NAMEHERE") ",
-            Image = "rbxassetid://4384402433",
-            Time = 30
-        })		
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NotAVeryGoodName/scripts/main/fefinger.lua"))()
   	end    
 })
 MIA:AddButton({
-	Name = "SS1",
+	Name = "SS1 checkf9",
 	Callback = function()
-        OrionLib:MakeNotification({
-            Name = "Kille em",
-            Content = " require(8571335826).miaispoopoo("NAMEHERE") ",
-            Image = "rbxassetid://4384402433",
-            Time = 30
-        })		
+        print(" require(0x22EEC35B5)["load"]("NAMEHERE") ")
+  	end    
+})
+MIA:AddButton({
+	Name = "SS2 checkf9",
+	Callback = function()
+        print(" require(8571335826).miaispoopoo("NAMEHERE") ")
   	end    
 })
