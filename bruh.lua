@@ -370,3 +370,9 @@ MIA:AddButton({
         loadstring(game:HttpGet("https://github.com/NotAVeryGoodName/scripts/raw/main/RemoteS.lua"))()
   	end    
 })
+MIA:AddButton({
+	Name = "CB Remotespy",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptingStefan/CheatBlox/main/srs.lua"))()
+  	end    
+})
