@@ -382,3 +382,27 @@ MIA:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptingStefan/CheatBlox/main/srs.lua"))()
   	end    
 })
+MIA:AddButton({
+	Name = "Pineapple player",
+	Callback = function()
+        loadstring(game:HttpGet("https://github.com/NotAVeryGoodName/scripts/raw/main/pineapple.lua"))()
+  	end    
+})
+MIA:AddButton({
+	Name = "BPlayer",
+	Callback = function()
+        loadstring(game:HttpGet("https://github.com/NotAVeryGoodName/scripts/raw/main/bplayer.lua"))()
+  	end    
+})
+MIA:AddButton({
+	Name = "Audio logger",
+	Callback = function()
+        loadstring(game:HttpGet("https://github.com/NotAVeryGoodName/scripts/raw/main/Alog.lua"))()
+  	end    
+})
+MIA:AddButton({
+	Name = "Unanchored Grab",
+	Callback = function()
+        loadstring(game:HttpGet("https://github.com/NotAVeryGoodName/scripts/raw/main/unangrab.lua"))()
+  	end    
+})
