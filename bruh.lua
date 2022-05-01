@@ -191,6 +191,12 @@ WOW:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/compwnter/destiny/main/loader"))()
   	end    
 })
+WOW:AddButton({
+	Name = "Piano autoplay",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/MidiPlayer/main/package.lua"))()
+  	end    
+})
 KAT:AddButton({
 	Name = "Aimbot",
 	Callback = function()
@@ -380,12 +386,6 @@ MIA:AddButton({
 	Name = "CB Remotespy",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptingStefan/CheatBlox/main/srs.lua"))()
-  	end    
-})
-MIA:AddButton({
-	Name = "Pineapple player",
-	Callback = function()
-        loadstring(game:HttpGet("https://github.com/NotAVeryGoodName/scripts/raw/main/pineapple.lua"))()
   	end    
 })
 MIA:AddButton({
