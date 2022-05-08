@@ -1,8 +1,3 @@
-local newsound = Instance.new("Sound",workspace)
-newsound.Name = "earbleed"
-newsound.SoundId = "rbxassetid://9576175596"
-newsound:Play()
-conntect(sound) 
 
 local UI = game:GetObjects("rbxassetid://8524217009")[1]
 if game.CoreGui:FindFirstChild("FPSCounter") then
